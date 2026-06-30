@@ -1,6 +1,13 @@
 spring:
   application:
     name: No-code-generation-platform
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ai_code
+    username: root
+    password: 123456
+
 server:
   port: 8123
   servlet:
